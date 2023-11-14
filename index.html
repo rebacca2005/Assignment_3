@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ferrero Rocher Chocolate</title>
+    <!-- Meta description for the page -->
+    <meta name="description" content="HOW SWEET IS THIS is Assignment-3, and we are going to create a website for my favorite chocolate">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Adding our CSS file -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Adding our google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Alumni+Sans+Inline+One&family=Cinzel:wght@400;700;900&family=Dancing+Script:wght@400;600;700&family=Libre+Baskerville&family=Nanum+Myeongjo:wght@800&family=Spectral+SC:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Adding our Logo -->
+            <img src="./Images/FerreroLogo.jpg" alt="Ferrero Rocher Logo">
+        </div>
+        <nav>
+            <ul class="header-nav">
+                <!-- Our navigation links -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#company">Company</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="video-masthead">
+            <!-- Background Video with Image -->
+            <video id="background-video" autoplay loop muted poster="./Images/ferreromain.jpg">
+                <source src="./Video/rocher_20s_ita_20220915.mp4" type="video/mp4">
+            </video>
+            <h1><span>Indulge in Luxury</span></h1>
+            <h2><span>Experience the Golden Taste</span></h2>
+        </section>
+        <section id="pictures">
+            <div class="normal-container">
+                <h2 class="animated-heading">YOUR FINEST CHOICES</h2>
+                <p class="section-description animated-description">A Taste Sensation In Every Bite</p>
+            </div>
+            <div class="image-gallery">
+                <div class="image-container box-1">
+                    <img src="./Images/frp1.jpg" alt="Chocolate Image 1">
+                </div>
+                <div class="image-container box-2">
+                    <img src="./Images/frp2.jpg" alt="Chocolate Image 2">
+                </div>
+                <div class="image-container box-3">
+                    <img src="./Images/frp3.jpg" alt="Chocolate Image 3">
+                </div>
+            </div>
+        </section>        
+        <section id="offers">
+            <h3>Special Offers</h3>
+            <nav>
+                <ul class="offer-nav">
+                    <li>
+                        <h4>Golden Gift Box</h4>
+                        <p>Indulge in luxury with our Golden Gift Box. 24 pieces of Ferrero Rocher chocolates in an elegant golden box.</p>
+                    </li>
+                    <li>
+                        <h4>Bulk Purchase Discount</h4>
+                        <p>Buy in bulk and save! Get a 10% discount on orders of 100 chocolates or more.</p>
+                    </li>
+                    <li>
+                        <h4>Student Offer</h4>
+                        <p>Calling all students! Enjoy a 15% discount on your chocolate orders with a valid student ID.</p>
+                    </li>
+                    <li>
+                        <h4>First Order Special</h4>
+                        <p>Make your first order extra special with a complimentary box of chocolates and free shipping.</p>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="products">
+            <h5>OUR PRODUCTS</h5>
+            <div class="product-container">
+                <div class="product">
+                    <img src="./Images/ferrerocollection.jpg" alt="Ferrero Chocolate Collection">
+                    <p>Ferrero Collection</p>
+                </div>
+                <div class="product">
+                    <img src="./Images/ferrerobars.jpg" alt="Ferrero Chocolate Bars">
+                    <p>Ferrero Bars</p>
+                </div>
+                <div class="product">
+                    <img src="./Images/ferrerocake.jpg" alt="Ferrero Chocolate Cakes">
+                    <p>Ferrero Cakes</p>
+                </div>
+                <div class="product">
+                    <img src="./Images/ferreroicecream.jpg" alt="Ferrero Chocolate Ice creams">
+                    <p>Ferrero Ice creams</p>
+                </div>
+            </div>
+        </section>                     
+    </main>
+    <footer>
+        <div class="footer-row logo-row">
+            <div class="logo-container">
+                <img src="./Images/FerreroLogo.jpg" alt="Ferrero Rocher Logo" class="oval-logo">
+            </div>
+        </div>
+        <div class="footer-row">
+            <div class="footer-section about-us-section">
+                <h3>About Us</h3>
+                <p>Add a brief description of your company here.</p>
+            </div>
+            <div class="footer-section legal-section">
+                <h3>Legal Advisories</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section connect-section">
+                <h3>Connect with Us</h3>
+                <ul class="footer-logos">
+                    <li><a href="#"><img src="./Images/instagram.jpg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="./Images/facebook.jpg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="./Images/Snap.jpg" alt="Snapchat"></a></li>
+                    <li><a href="#"><img src="./Images/twitter.jpg" alt="Twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-row form-row">
+            <div class="footer-section form-section">
+                <h3>Contact Us</h3>
+                <form class="footer-contacts">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-row credits-row">
+            <div class="footer-credits">
+                <h6>Credits</h6>
+                <p>&copy; 2023 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
